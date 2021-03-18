@@ -23,11 +23,15 @@ h1 {
     font-size: 4.5rem;
 }
 
+main {
+    margin-top: 10vh;
+}
+
 p {
     font-family: 'Open Sans', sans-serif;
     font-size: 1.9rem;
-    margin-top: 10vh;
     text-align: justify;
+    margin-bottom: 1rem;
 }
 
 ul {
