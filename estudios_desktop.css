@@ -33,6 +33,8 @@ a {
 }
 
 .project_box {
+    width: 80%;
+    margin: auto;
     display: grid;
     grid-template: 1fr 1fr 1fr / 1fr 1fr;
 }

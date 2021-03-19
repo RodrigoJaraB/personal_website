@@ -24,6 +24,7 @@ h3 {
     font-family: 'Noto Sans JP', sans-serif;
     font-size: 3rem;
     text-align: center;
+    height: 10vh;
     margin-top: 5vh;
 }
 
@@ -33,6 +34,8 @@ a {
 }
 
 .project_box {
+    width: 80%;
+    margin: auto;
     display: grid;
     grid-template: 1fr 1fr 1fr / 1fr 1fr;
 }

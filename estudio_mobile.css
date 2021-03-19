@@ -39,7 +39,7 @@ a {
 }
 
 .project_box {
-    height: 55vh;
+    margin-bottom: 10vh;
     display: grid;
     grid-template: 1fr 1fr 1fr / 1fr 1fr;
 }

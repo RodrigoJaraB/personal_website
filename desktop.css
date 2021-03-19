@@ -9,23 +9,36 @@ html {
 }
 
 body {
-    width: 70vw;
-    height: 100vh;
-    margin: 0 auto 0 auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+    width: 60vw;
+    margin: auto;
 }
 
-h1 {
+header {
     font-family: 'Noto Sans JP', sans-serif;
-    font-size: 7rem;
+    font-size: 3.5rem;
+    text-align: center;
+    margin-top: 10vh;
+}
+
+img {
+    width: 40%;
+    height: auto;
+    display: block;
+    margin: auto;
+    margin-bottom: 5vh;
+    border-radius: 50%;
+}
+
+main {
+    margin-top: 10vh;
+    margin-bottom: 8vh;
 }
 
 p {
     font-family: 'Open Sans', sans-serif;
-    font-size: 2.5rem;
+    font-size: 2rem;
+    text-align: justify;
+    margin-bottom: 1rem;
 }
 
 ul {
@@ -42,7 +55,7 @@ li {
 
 a {
     text-decoration: none;
-    font-size: 2.5rem;
+    font-size: 2rem;
     font-family: 'Open Sans', sans-serif;
     color: #000;
 }
@@ -57,4 +70,22 @@ a:hover {
 
 .link2 {
     margin-left: 5vw;
+}
+
+.icons {
+    font-size: 4rem;
+}
+
+.icons-box {
+    width: 35%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.footer-font {
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 3vh auto 5vh auto;
 }
